@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Assignment_1
 {
-    internal class Program
+    internal class Program 
     {
         static void Main(string[] args)
         {
@@ -18,6 +18,22 @@ namespace Assignment_1
 
             };
 
+            Shape[] shapes = {
+
+                new Circle(),
+                new Square()
+                };
+
+            foreach (var shape in shapes)
+            {
+                shape.Describe();
+                if (shape is IDrawable drawable)
+                {
+                    drawable.Draw();
+                }
+            }
+
+
             Accounts[0].Deposit(50);
             Accounts[1].Deposit(100);
 
@@ -26,6 +42,7 @@ namespace Assignment_1
                 Console.WriteLine(account.GetAccountType());
                 Console.WriteLine(account.Balance.ToString());
             }
+
 
         }
     }

@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D5E88BAF-CBB1-4A46-B02B-5370B5C66408}|Assignment 1\\Assignment 1.csproj|d:\\andalusia fullstack\\youssef_waleed_assignments\\assignment 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5E88BAF-CBB1-4A46-B02B-5370B5C66408}|Assignment 1\\Assignment 1.csproj|solutionrelative:assignment 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5E88BAF-CBB1-4A46-B02B-5370B5C66408}|Assignment 1\\Assignment 1.csproj|d:\\andalusia fullstack\\youssef_waleed_assignments\\assignment 1\\models\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5E88BAF-CBB1-4A46-B02B-5370B5C66408}|Assignment 1\\Assignment 1.csproj|solutionrelative:assignment 1\\models\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5E88BAF-CBB1-4A46-B02B-5370B5C66408}|Assignment 1\\Assignment 1.csproj|d:\\andalusia fullstack\\youssef_waleed_assignments\\assignment 1\\models\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5E88BAF-CBB1-4A46-B02B-5370B5C66408}|Assignment 1\\Assignment 1.csproj|solutionrelative:assignment 1\\models\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5E88BAF-CBB1-4A46-B02B-5370B5C66408}|Assignment 1\\Assignment 1.csproj|d:\\andalusia fullstack\\youssef_waleed_assignments\\assignment 1\\models\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5E88BAF-CBB1-4A46-B02B-5370B5C66408}|Assignment 1\\Assignment 1.csproj|solutionrelative:assignment 1\\models\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5E88BAF-CBB1-4A46-B02B-5370B5C66408}|Assignment 1\\Assignment 1.csproj|d:\\andalusia fullstack\\youssef_waleed_assignments\\assignment 1\\models\\idrawable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5E88BAF-CBB1-4A46-B02B-5370B5C66408}|Assignment 1\\Assignment 1.csproj|solutionrelative:assignment 1\\models\\idrawable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5E88BAF-CBB1-4A46-B02B-5370B5C66408}|Assignment 1\\Assignment 1.csproj|D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\assignment 1\\models\\savingsaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5E88BAF-CBB1-4A46-B02B-5370B5C66408}|Assignment 1\\Assignment 1.csproj|solutionrelative:assignment 1\\models\\savingsaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5E88BAF-CBB1-4A46-B02B-5370B5C66408}|Assignment 1\\Assignment 1.csproj|D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\assignment 1\\models\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5E88BAF-CBB1-4A46-B02B-5370B5C66408}|Assignment 1\\Assignment 1.csproj|solutionrelative:assignment 1\\models\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Square.cs",
+              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment 1\\Models\\Square.cs",
+              "RelativeDocumentMoniker": "Assignment 1\\Models\\Square.cs",
+              "ToolTip": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment 1\\Models\\Square.cs",
+              "RelativeToolTip": "Assignment 1\\Models\\Square.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T19:51:45.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Circle.cs",
+              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment 1\\Models\\Circle.cs",
+              "RelativeDocumentMoniker": "Assignment 1\\Models\\Circle.cs",
+              "ToolTip": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment 1\\Models\\Circle.cs",
+              "RelativeToolTip": "Assignment 1\\Models\\Circle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T19:46:36.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Shape.cs",
+              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment 1\\Models\\Shape.cs",
+              "RelativeDocumentMoniker": "Assignment 1\\Models\\Shape.cs",
+              "ToolTip": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment 1\\Models\\Shape.cs",
+              "RelativeToolTip": "Assignment 1\\Models\\Shape.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T19:36:42.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IDrawable.cs",
+              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment 1\\Models\\IDrawable.cs",
+              "RelativeDocumentMoniker": "Assignment 1\\Models\\IDrawable.cs",
+              "ToolTip": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment 1\\Models\\IDrawable.cs",
+              "RelativeToolTip": "Assignment 1\\Models\\IDrawable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T19:35:02.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SavingsAccount.cs",
+              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment 1\\Models\\SavingsAccount.cs",
+              "RelativeDocumentMoniker": "Assignment 1\\Models\\SavingsAccount.cs",
+              "ToolTip": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment 1\\Models\\SavingsAccount.cs",
+              "RelativeToolTip": "Assignment 1\\Models\\SavingsAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T18:51:17.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BankAccount.cs",
+              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment 1\\Models\\BankAccount.cs",
+              "RelativeDocumentMoniker": "Assignment 1\\Models\\BankAccount.cs",
+              "ToolTip": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment 1\\Models\\BankAccount.cs",
+              "RelativeToolTip": "Assignment 1\\Models\\BankAccount.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T18:40:51.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment 1\\Program.cs",
+              "RelativeDocumentMoniker": "Assignment 1\\Program.cs",
+              "ToolTip": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment 1\\Program.cs",
+              "RelativeToolTip": "Assignment 1\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA/wB8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T18:25:51.187Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

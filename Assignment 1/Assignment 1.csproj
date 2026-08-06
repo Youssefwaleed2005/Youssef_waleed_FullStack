@@ -44,7 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\BankAccount.cs" />
+    <Compile Include="Models\Circle.cs" />
+    <Compile Include="Models\IDrawable.cs" />
     <Compile Include="Models\SavingsAccount.cs" />
+    <Compile Include="Models\Shape.cs" />
+    <Compile Include="Models\Square.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
