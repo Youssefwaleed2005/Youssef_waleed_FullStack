@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D5E88BAF-CBB1-4A46-B02B-5370B5C66408}|Assignment 1\\Assignment 1.csproj|d:\\andalusia fullstack\\youssef_waleed_assignments\\assignment 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5E88BAF-CBB1-4A46-B02B-5370B5C66408}|Assignment 1\\Assignment 1.csproj|solutionrelative:assignment 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment_2.csproj|d:\\andalusia fullstack\\youssef_waleed_assignments\\assignment_2\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment_2.csproj|solutionrelative:assignment_2\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5E88BAF-CBB1-4A46-B02B-5370B5C66408}|Assignment 1\\Assignment 1.csproj|d:\\andalusia fullstack\\youssef_waleed_assignments\\assignment 1\\models\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5E88BAF-CBB1-4A46-B02B-5370B5C66408}|Assignment 1\\Assignment 1.csproj|solutionrelative:assignment 1\\models\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5E88BAF-CBB1-4A46-B02B-5370B5C66408}|Assignment 1\\Assignment 1.csproj|d:\\andalusia fullstack\\youssef_waleed_assignments\\assignment 1\\models\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5E88BAF-CBB1-4A46-B02B-5370B5C66408}|Assignment 1\\Assignment 1.csproj|solutionrelative:assignment 1\\models\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5E88BAF-CBB1-4A46-B02B-5370B5C66408}|Assignment 1\\Assignment 1.csproj|d:\\andalusia fullstack\\youssef_waleed_assignments\\assignment 1\\models\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5E88BAF-CBB1-4A46-B02B-5370B5C66408}|Assignment 1\\Assignment 1.csproj|solutionrelative:assignment 1\\models\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5E88BAF-CBB1-4A46-B02B-5370B5C66408}|Assignment 1\\Assignment 1.csproj|d:\\andalusia fullstack\\youssef_waleed_assignments\\assignment 1\\models\\idrawable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D5E88BAF-CBB1-4A46-B02B-5370B5C66408}|Assignment 1\\Assignment 1.csproj|D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\assignment 1\\models\\idrawable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5E88BAF-CBB1-4A46-B02B-5370B5C66408}|Assignment 1\\Assignment 1.csproj|solutionrelative:assignment 1\\models\\idrawable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5E88BAF-CBB1-4A46-B02B-5370B5C66408}|Assignment 1\\Assignment 1.csproj|D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\assignment 1\\models\\savingsaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5E88BAF-CBB1-4A46-B02B-5370B5C66408}|Assignment 1\\Assignment 1.csproj|solutionrelative:assignment 1\\models\\savingsaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment_2.csproj|d:\\andalusia fullstack\\youssef_waleed_assignments\\assignment_2\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment_2.csproj|solutionrelative:assignment_2\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5E88BAF-CBB1-4A46-B02B-5370B5C66408}|Assignment 1\\Assignment 1.csproj|D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\assignment 1\\models\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5E88BAF-CBB1-4A46-B02B-5370B5C66408}|Assignment 1\\Assignment 1.csproj|solutionrelative:assignment 1\\models\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment_2.csproj|d:\\andalusia fullstack\\youssef_waleed_assignments\\assignment_2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment_2.csproj|solutionrelative:assignment_2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment_2.csproj|d:\\andalusia fullstack\\youssef_waleed_assignments\\assignment_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment_2.csproj|solutionrelative:assignment_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment_2.csproj|d:\\andalusia fullstack\\youssef_waleed_assignments\\assignment_2\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment_2.csproj|solutionrelative:assignment_2\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,51 +37,8 @@
           "SelectedChildIndex": 7,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Square.cs",
-              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment 1\\Models\\Square.cs",
-              "RelativeDocumentMoniker": "Assignment 1\\Models\\Square.cs",
-              "ToolTip": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment 1\\Models\\Square.cs",
-              "RelativeToolTip": "Assignment 1\\Models\\Square.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-06T19:51:45.37Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Circle.cs",
-              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment 1\\Models\\Circle.cs",
-              "RelativeDocumentMoniker": "Assignment 1\\Models\\Circle.cs",
-              "ToolTip": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment 1\\Models\\Circle.cs",
-              "RelativeToolTip": "Assignment 1\\Models\\Circle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-06T19:46:36.302Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Shape.cs",
-              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment 1\\Models\\Shape.cs",
-              "RelativeDocumentMoniker": "Assignment 1\\Models\\Shape.cs",
-              "ToolTip": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment 1\\Models\\Shape.cs",
-              "RelativeToolTip": "Assignment 1\\Models\\Shape.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-06T19:36:42.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "IDrawable.cs",
               "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment 1\\Models\\IDrawable.cs",
               "RelativeDocumentMoniker": "Assignment 1\\Models\\IDrawable.cs",
@@ -94,43 +47,76 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-06T19:35:02.9Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "SavingsAccount.cs",
-              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment 1\\Models\\SavingsAccount.cs",
-              "RelativeDocumentMoniker": "Assignment 1\\Models\\SavingsAccount.cs",
-              "ToolTip": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment 1\\Models\\SavingsAccount.cs",
-              "RelativeToolTip": "Assignment 1\\Models\\SavingsAccount.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment_2\\Product.cs",
+              "RelativeDocumentMoniker": "Assignment_2\\Product.cs",
+              "ToolTip": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment_2\\Product.cs",
+              "RelativeToolTip": "Assignment_2\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-06T18:51:17.887Z"
+              "WhenOpened": "2026-08-08T20:37:35.394Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BankAccount.cs",
-              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment 1\\Models\\BankAccount.cs",
-              "RelativeDocumentMoniker": "Assignment 1\\Models\\BankAccount.cs",
-              "ToolTip": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment 1\\Models\\BankAccount.cs",
-              "RelativeToolTip": "Assignment 1\\Models\\BankAccount.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment_2\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Assignment_2\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment_2\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Assignment_2\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-09T09:25:08.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment_2\\appsettings.json",
+              "RelativeDocumentMoniker": "Assignment_2\\appsettings.json",
+              "ToolTip": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment_2\\appsettings.json",
+              "RelativeToolTip": "Assignment_2\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-09T09:24:59.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment_2\\Program.cs",
+              "RelativeDocumentMoniker": "Assignment_2\\Program.cs",
+              "ToolTip": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment_2\\Program.cs",
+              "RelativeToolTip": "Assignment_2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-06T18:40:51.276Z"
+              "WhenOpened": "2026-08-08T20:46:28.06Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment 1\\Program.cs",
-              "RelativeDocumentMoniker": "Assignment 1\\Program.cs",
-              "ToolTip": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment 1\\Program.cs",
-              "RelativeToolTip": "Assignment 1\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA/wB8AAAAcAAAAAAAAAA==",
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment_2\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Assignment_2\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment_2\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Assignment_2\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-06T18:25:51.187Z",
+              "WhenOpened": "2026-08-08T20:40:51.906Z",
               "EditorCaption": ""
             }
           ]
