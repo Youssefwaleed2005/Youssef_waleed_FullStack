@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Assignment_2.Repo;
+using Assignment_2.Services;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Assignment_2.Controllers
@@ -7,60 +9,58 @@ namespace Assignment_2.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
-        private static List<Product> _products = new List<Product>();
-        private static int _lastId = 1;
+        private IProductServices _productService;
+
+        public ProductsController(IProductServices productService)
+        {
+            _productService = productService;
+        }
+        
         [HttpGet]
         public IActionResult GetAll() 
         {
-            return Ok(_products);
+            return Ok(_productService.GetAll());
         }
 
         [HttpGet("{id}")]
-        public IActionResult GetById(int id)
+        public IActionResult GetProduct(int id)
         {
-            var product = _products.FirstOrDefault(t => t.Id == id);
-            if (product == null)
-            {
-                return NotFound();
-            }
-            return Ok(product);
+            
+            return Ok(_productService.GetProduct(id));
         }
 
-        [HttpPost]
+        [HttpPost ("add")]
         public IActionResult CreateItem([FromBody] Product product)
         {
-            product.Id = _lastId++;
-            _products.Add(product);
-            return Created();
+           
+            return Created($"/api/Products/{product.Id}",_productService.CreateProduct(product));
         }
 
-        [HttpPut ("{id}")]
+        //[HttpPut ("{id}")]
          
-        public IActionResult ReplaceItem(int id, [FromBody] Product newProduct)
-        {
-            var product = _products.FirstOrDefault(t => t.Id == id);
-            if (product == null)
-            {
-                return NotFound();
-            }
-            _products.Remove(product);
-            _products.Add(newProduct);
-            return Ok(newProduct);
+        //public IActionResult ReplaceItem(int id, [FromBody] Product newProduct)
+        //{
+        //    var product = _products.FirstOrDefault(t => t.Id == id);
+        //    if (product == null)
+        //    {
+        //        return NotFound();
+        //    }
+        //    _products.Remove(product);
+        //    _products.Add(newProduct);
+        //    return Ok(newProduct);
 
-        }
+        //}
 
         [HttpDelete("{id}")]
 
-        public IActionResult DeleteItem(int id)
+        public IActionResult DeleteProduct(int id)
         {
-            var product = _products.FirstOrDefault(t => t.Id == id);
-            if (product == null)
+            if (_productService.DeleteProduct(id))
             {
-                return NotFound();
+                return NoContent();
             }
-            _products.Remove(product);
-            _lastId -= 1;
-            return NoContent();
+            else return NotFound();
+
         }
     }
 

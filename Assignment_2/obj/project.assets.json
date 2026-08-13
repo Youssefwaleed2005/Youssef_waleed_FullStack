@@ -89,9 +89,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment_2\\Assignment_2.csproj",
-      "projectName": "Assignment_2",
-      "projectPath": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment_2\\Assignment_2.csproj",
+      "projectUniqueName": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment_2\\Assignment 3.csproj",
+      "projectName": "Assignment 3",
+      "projectPath": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment_2\\Assignment 3.csproj",
       "packagesPath": "C:\\Users\\walee\\.nuget\\packages\\",
       "outputPath": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment_2\\obj\\",
       "projectStyle": "PackageReference",
