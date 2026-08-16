@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "t1V+t6F/MO8=",
+  "dgSpecHash": "CPC1mvU9aCg=",
   "success": true,
   "projectFilePath": "D:\\Andalusia FullStack\\Youssef_Waleed_Assignments\\Assignment_2\\Assignment 3.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\walee\\.nuget\\packages\\asp.versioning.abstractions\\10.2.1\\asp.versioning.abstractions.10.2.1.nupkg.sha512",
+    "C:\\Users\\walee\\.nuget\\packages\\asp.versioning.http\\10.2.1\\asp.versioning.http.10.2.1.nupkg.sha512",
+    "C:\\Users\\walee\\.nuget\\packages\\asp.versioning.mvc\\10.2.1\\asp.versioning.mvc.10.2.1.nupkg.sha512",
+    "C:\\Users\\walee\\.nuget\\packages\\asp.versioning.mvc.apiexplorer\\10.2.1\\asp.versioning.mvc.apiexplorer.10.2.1.nupkg.sha512",
     "C:\\Users\\walee\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.10\\microsoft.aspnetcore.openapi.10.0.10.nupkg.sha512",
     "C:\\Users\\walee\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
   ],

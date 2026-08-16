@@ -33,3 +33,7 @@ D:\Andalusia FullStack\Youssef_Waleed_Assignments\Assignment_2\obj\Debug\net10.0
 D:\Andalusia FullStack\Youssef_Waleed_Assignments\Assignment_2\obj\Debug\net10.0\Assignment 3.pdb
 D:\Andalusia FullStack\Youssef_Waleed_Assignments\Assignment_2\obj\Debug\net10.0\Assignment 3.genruntimeconfig.cache
 D:\Andalusia FullStack\Youssef_Waleed_Assignments\Assignment_2\obj\Debug\net10.0\ref\Assignment 3.dll
+D:\Andalusia FullStack\Youssef_Waleed_Assignments\Assignment_2\bin\Debug\net10.0\Asp.Versioning.Abstractions.dll
+D:\Andalusia FullStack\Youssef_Waleed_Assignments\Assignment_2\bin\Debug\net10.0\Asp.Versioning.Http.dll
+D:\Andalusia FullStack\Youssef_Waleed_Assignments\Assignment_2\bin\Debug\net10.0\Asp.Versioning.Mvc.dll
+D:\Andalusia FullStack\Youssef_Waleed_Assignments\Assignment_2\bin\Debug\net10.0\Asp.Versioning.Mvc.ApiExplorer.dll

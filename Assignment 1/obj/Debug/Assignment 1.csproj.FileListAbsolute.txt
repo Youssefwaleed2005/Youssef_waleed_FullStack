@@ -1,7 +1,0 @@
-D:\Andalusia FullStack\Youssef_Waleed_Assignments\Assignment 1\bin\Debug\Assignment 1.exe.config
-D:\Andalusia FullStack\Youssef_Waleed_Assignments\Assignment 1\bin\Debug\Assignment 1.exe
-D:\Andalusia FullStack\Youssef_Waleed_Assignments\Assignment 1\bin\Debug\Assignment 1.pdb
-D:\Andalusia FullStack\Youssef_Waleed_Assignments\Assignment 1\obj\Debug\Assignment 1.csproj.AssemblyReference.cache
-D:\Andalusia FullStack\Youssef_Waleed_Assignments\Assignment 1\obj\Debug\Assignment 1.csproj.CoreCompileInputs.cache
-D:\Andalusia FullStack\Youssef_Waleed_Assignments\Assignment 1\obj\Debug\Assignment 1.exe
-D:\Andalusia FullStack\Youssef_Waleed_Assignments\Assignment 1\obj\Debug\Assignment 1.pdb

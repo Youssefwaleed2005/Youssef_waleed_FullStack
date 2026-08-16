@@ -1,8 +1,66 @@
 [
   {
+    "ContainingType": "Assignment_3.Controllers.v1.ProductsController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/product",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Assignment_3.Controllers.v1.ProductsController",
+    "Method": "GetProduct",
+    "RelativePath": "api/v1/product/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Assignment_3.Controllers.v1.ProductsController",
+    "Method": "DeleteProduct",
+    "RelativePath": "api/v1/product/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Assignment_3.Controllers.v1.ProductsController",
+    "Method": "CreateItem",
+    "RelativePath": "api/v1/product/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "Assignment_2.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Assignment_2.Controllers.ProductsController",
     "Method": "GetAll",
-    "RelativePath": "api/products",
+    "RelativePath": "api/v2/product",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -12,7 +70,7 @@
   {
     "ContainingType": "Assignment_2.Controllers.ProductsController",
     "Method": "GetProduct",
-    "RelativePath": "api/products/{id}",
+    "RelativePath": "api/v2/product/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -28,7 +86,7 @@
   {
     "ContainingType": "Assignment_2.Controllers.ProductsController",
     "Method": "DeleteProduct",
-    "RelativePath": "api/products/{id}",
+    "RelativePath": "api/v2/product/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -44,7 +102,7 @@
   {
     "ContainingType": "Assignment_2.Controllers.ProductsController",
     "Method": "CreateItem",
-    "RelativePath": "api/products/add",
+    "RelativePath": "api/v2/product/add",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

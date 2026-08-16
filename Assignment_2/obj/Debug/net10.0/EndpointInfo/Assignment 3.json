@@ -10,7 +10,7 @@
     }
   ],
   "paths": {
-    "/api/products": {
+    "/api/v1/product": {
       "get": {
         "tags": [
           "Products"
@@ -22,7 +22,7 @@
         }
       }
     },
-    "/api/products/{id}": {
+    "/api/v1/product/{id}": {
       "get": {
         "tags": [
           "Products"
@@ -74,7 +74,7 @@
         }
       }
     },
-    "/api/products/add": {
+    "/api/v1/product/add": {
       "post": {
         "tags": [
           "Products"

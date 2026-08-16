@@ -5,13 +5,12 @@ namespace Assignment_3.MiddleWare
     public class GlobalExceptionMiddleware
     {
         private readonly RequestDelegate _next;
-        private readonly ILogger<GlobalExceptionMiddleware> _logger;
 
 
-        public GlobalExceptionMiddleware(RequestDelegate next, ILogger<GlobalExceptionMiddleware> logger)
+        public GlobalExceptionMiddleware(RequestDelegate next)
         {
             _next = next;
-            _logger = logger;
+            
         }
         public async Task InvokeAsync(HttpContext context)
         {
