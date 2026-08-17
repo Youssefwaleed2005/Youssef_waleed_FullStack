@@ -1,4 +1,6 @@
-﻿namespace Assignment_2.Repo
+﻿using Assignment_3.Models;
+
+namespace Assignment_2.Repo
 {
     public interface IProductRepos
     {

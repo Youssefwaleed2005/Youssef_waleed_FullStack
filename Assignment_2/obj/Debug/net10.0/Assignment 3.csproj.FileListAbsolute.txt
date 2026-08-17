@@ -33,3 +33,38 @@ D:\Andalusia FullStack\Youssef_Waleed_Assignments\Assignment_2\obj\Debug\net10.0
 D:\Andalusia FullStack\Youssef_Waleed_Assignments\Assignment_2\obj\Debug\net10.0\Assignment 3.pdb
 D:\Andalusia FullStack\Youssef_Waleed_Assignments\Assignment_2\obj\Debug\net10.0\Assignment 3.genruntimeconfig.cache
 D:\Andalusia FullStack\Youssef_Waleed_Assignments\Assignment_2\obj\Debug\net10.0\ref\Assignment 3.dll
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\Assignment 3.csproj.AssemblyReference.cache
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\rpswa.dswa.cache.json
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\Assignment 3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\Assignment 3.AssemblyInfoInputs.cache
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\Assignment 3.AssemblyInfo.cs
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\Assignment 3.csproj.CoreCompileInputs.cache
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\Assignment 3.MvcApplicationPartsAssemblyInfo.cs
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\Assignment 3.MvcApplicationPartsAssemblyInfo.cache
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\Assignment 3.sourcelink.json
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\Assignment 3.dll
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\refint\Assignment 3.dll
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\Assignment 3.pdb
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\bin\Debug\net10.0\appsettings.Development.json
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\bin\Debug\net10.0\appsettings.json
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\bin\Debug\net10.0\Assignment 3.staticwebassets.endpoints.json
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\bin\Debug\net10.0\Assignment 3.exe
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\bin\Debug\net10.0\Assignment 3.deps.json
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\bin\Debug\net10.0\Assignment 3.runtimeconfig.json
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\bin\Debug\net10.0\Assignment 3.dll
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\bin\Debug\net10.0\Assignment 3.pdb
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\bin\Debug\net10.0\Microsoft.OpenApi.dll
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\rjimswa.dswa.cache.json
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\scopedcss\bundle\Assignment 3.styles.css
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\staticwebassets.build.json
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\staticwebassets.build.json.cache
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\staticwebassets.development.json
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\swae.build.ex.cache
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\Assignme.B01EBD87.Up2Date
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\Assignment 3.genruntimeconfig.cache
+D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\ref\Assignment 3.dll

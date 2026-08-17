@@ -1,5 +1,6 @@
 ﻿using Assignment_2.Repo;
 using Assignment_2.Services;
+using Assignment_3.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,9 +18,9 @@ namespace Assignment_2.Controllers
         }
         
         [HttpGet]
-        public IActionResult GetAll() 
+        public IActionResult GetAll([FromQuery] ProductFilterParams param) 
         {
-            return Ok(_productService.GetAll());
+            return Ok(_productService.GetAll(param));
         }
 
         [HttpGet("{id}")]
@@ -36,20 +37,7 @@ namespace Assignment_2.Controllers
             return Created($"/api/Products/{product.Id}",_productService.CreateProduct(product));
         }
 
-        //[HttpPut ("{id}")]
-         
-        //public IActionResult ReplaceItem(int id, [FromBody] Product newProduct)
-        //{
-        //    var product = _products.FirstOrDefault(t => t.Id == id);
-        //    if (product == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    _products.Remove(product);
-        //    _products.Add(newProduct);
-        //    return Ok(newProduct);
-
-        //}
+       
 
         [HttpDelete("{id}")]
 

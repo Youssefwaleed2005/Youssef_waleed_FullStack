@@ -1,4 +1,6 @@
-﻿namespace Assignment_2.Services
+﻿using Assignment_3.Models;
+
+namespace Assignment_2.Services
 {
     public interface IProductServices
     {
@@ -6,7 +8,7 @@
 
         public Product CreateProduct(Product product);
 
-        public List<Product> GetAll();
+        public PagedResult<Product> GetAll(ProductFilterParams param);
 
         public bool DeleteProduct(int id);
     }

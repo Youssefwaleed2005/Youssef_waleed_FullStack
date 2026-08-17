@@ -1,7 +1,10 @@
+using Assignment_2.Repo;
+using Assignment_2.Services;
 using Assignment_3.MiddleWare;
 
 var builder = WebApplication.CreateBuilder(args);
-
+builder.Services.AddSingleton<IProductRepos,ProductRepo>();
+builder.Services.AddScoped<IProductServices,ProductService>();
 // Add services to the container.
 
 builder.Services.AddControllers();
