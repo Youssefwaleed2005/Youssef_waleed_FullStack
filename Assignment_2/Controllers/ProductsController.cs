@@ -17,39 +17,46 @@ namespace Assignment_2.Controllers
             _productService = productService;
         }
         
-        [HttpGet]
-        public IActionResult GetAll([FromQuery] ProductFilterParams param) 
-        {
-            return Ok(_productService.GetAll(param));
-        }
+        //[HttpGet]
+        //public IActionResult GetAll([FromQuery] ProductFilterParams param) 
+        //{
+        //    return Ok(_productService.GetAll(param));
+        //}
 
         [HttpGet("{id}")]
-        public IActionResult GetProduct(int id)
+        public async Task<IActionResult> GetProduct(int id)
         {
+            var data = await _productService.GetProduct(id);
+            return Ok(new 
+            { 
+                ProductId = data.Id,
+                Title=data.Title,
+                UserId=data.UserId,
+                Name=data.User.Name
             
-            return Ok(_productService.GetProduct(id));
+            });
         }
 
         [HttpPost ("add")]
-        public IActionResult CreateItem([FromBody] Product product)
+        public async Task<IActionResult> CreateItem([FromBody] Product product)
         {
            
-            return Created($"/api/Products/{product.Id}",_productService.CreateProduct(product));
+            return Created($"/api/Products/{product.Id}",await _productService.CreateProduct(product));
         }
 
        
 
-        [HttpDelete("{id}")]
+        //[HttpDelete("{id}")]
 
-        public IActionResult DeleteProduct(int id)
-        {
-            if (_productService.DeleteProduct(id))
-            {
-                return NoContent();
-            }
-            else return NotFound();
+        //public IActionResult DeleteProduct(int id)
+        //{
+        //    if (_productService.DeleteProduct(id))
+        //    {
+        //        return NoContent();
+        //    }
+        //    else return NotFound();
 
-        }
+        //}
     }
 
 }

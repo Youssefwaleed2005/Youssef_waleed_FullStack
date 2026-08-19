@@ -8,5 +8,9 @@
         public bool IsAvaliable { get; set; }
 
         public double Price {  get; set; }
+
+        public int UserId {  get; set; }
+
+        public User? User { get; set; }
     }
 }

@@ -16,77 +16,68 @@ namespace Assignment_2.Services
 
         }
 
-        public Product? GetProduct(int id)
+        public async Task<Product>? GetProduct(int id)
         {
-            var product = _productRepo.GetProduct(id);
-            if (product == null)
-            {
-                throw new NotFoundException("Product not found!");
-            }
-            else return product;
+            return await _productRepo.GetProduct(id);
         }
-        public Product CreateProduct(Product product)
+        public async Task<Product> CreateProduct(Product product)
         {
-            if(_productRepo.ExistsByTitle(product.Title))
-            {
-                throw new ConflictException("Title already exists");
-            }
-            return _productRepo.CreateProduct(product);
+           return await _productRepo.CreateProduct(product);
         }
-        public PagedResult<Product> GetAll(ProductFilterParams param)
-        {
-            IEnumerable<Product> products = _productRepo.GetAll();
-            var  totalcount = products.Count();
+        //public PagedResult<Product> GetAll(ProductFilterParams param)
+        //{
+        //    IEnumerable<Product> products = _productRepo.GetAll();
+        //    var  totalcount = products.Count();
 
-            if (!string.IsNullOrEmpty(param.Search))
-            {
-                products = products.Where(p => p.Title.Contains(param.Search, StringComparison.OrdinalIgnoreCase));
-            }
+        //    if (!string.IsNullOrEmpty(param.Search))
+        //    {
+        //        products = products.Where(p => p.Title.Contains(param.Search, StringComparison.OrdinalIgnoreCase));
+        //    }
 
-            if (param.IsAvalaible.HasValue)
-            {
-                products = products.Where(p => p.IsAvaliable == param.IsAvalaible);
-            }
+        //    if (param.IsAvalaible.HasValue)
+        //    {
+        //        products = products.Where(p => p.IsAvaliable == param.IsAvalaible);
+        //    }
 
-            if (param.Price.HasValue)
-            {
-                products = products.Where(p => p.Price == param.Price);
-            }
+        //    if (param.Price.HasValue)
+        //    {
+        //        products = products.Where(p => p.Price == param.Price);
+        //    }
 
-            var allowedSort =
-                new Dictionary<string, Func<Product, object>>
-                {
-                    ["Title"] = p => p.Title,
-                    ["Price"] = p => p.Price,
-                    ["IsAvaliable"] = p => p.IsAvaliable
-                };
+        //    var allowedSort =
+        //        new Dictionary<string, Func<Product, object>>
+        //        {
+        //            ["Title"] = p => p.Title,
+        //            ["Price"] = p => p.Price,
+        //            ["IsAvaliable"] = p => p.IsAvaliable
+        //        };
 
-            if (allowedSort.TryGetValue(
-                    param.SortBy ?? "Price", out var keySelector))
-            {
-                products = param.Order == "desc"
-                    ? products.OrderByDescending(keySelector)
-                    : products.OrderBy(keySelector);
-            }
+        //    if (allowedSort.TryGetValue(
+        //            param.SortBy ?? "Price", out var keySelector))
+        //    {
+        //        products = param.Order == "desc"
+        //            ? products.OrderByDescending(keySelector)
+        //            : products.OrderBy(keySelector);
+        //    }
 
-            products = products.OrderByDescending(p => p.Title);
+        //    products = products.OrderByDescending(p => p.Title);
 
-            products = products.Skip((param.Page - 1) * param.PageSize).Take(param.PageSize).ToList();
+        //    products = products.Skip((param.Page - 1) * param.PageSize).Take(param.PageSize).ToList();
 
-            return new PagedResult<Product>
-            {
-                Data = products,
-                Page = param.Page,
-                PageSize = param.PageSize,
-                TotalCount = totalcount
-            };
+        //    return new PagedResult<Product>
+        //    {
+        //        Data = products,
+        //        Page = param.Page,
+        //        PageSize = param.PageSize,
+        //        TotalCount = totalcount
+        //    };
 
-        }
+        //}
 
-        public bool DeleteProduct(int id)
-        {
-            return _productRepo.DeleteProduct(id);
-        }
+        //public bool DeleteProduct(int id)
+        //{
+        //    return _productRepo.DeleteProduct(id);
+        //}
 
     }
 }

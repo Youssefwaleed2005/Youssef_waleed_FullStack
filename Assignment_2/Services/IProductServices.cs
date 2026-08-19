@@ -4,12 +4,12 @@ namespace Assignment_2.Services
 {
     public interface IProductServices
     {
-        public Product GetProduct(int id);
+        public Task<Product> GetProduct(int id);
 
-        public Product CreateProduct(Product product);
+        public Task<Product> CreateProduct(Product product);
 
-        public PagedResult<Product> GetAll(ProductFilterParams param);
+        //public PagedResult<Product> GetAll(ProductFilterParams param);
 
-        public bool DeleteProduct(int id);
+        //public bool DeleteProduct(int id);
     }
 }

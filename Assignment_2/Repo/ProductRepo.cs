@@ -1,43 +1,52 @@
-﻿using Assignment_3.Models;
+﻿using Assignment_3.Data;
+using Assignment_3.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Assignment_2.Repo
 {
     public class ProductRepo:IProductRepos
     {
-        private static List<Product> _products = new List<Product>();
-        private static int _lastId = 1;
-
-        public Product? GetProduct(int id)
+        private readonly AppDbContext _dbContext;
+        public ProductRepo(AppDbContext dbContext)
         {
-            var product = _products.FirstOrDefault(x => x.Id == id);
+            _dbContext = dbContext;
+        }
+        public async Task<Product>? GetProduct(int id)
+        {
+            var query = _dbContext.Products.AsQueryable();
+
+            query= query.Include(p=>p.User).Where(p=>p.Id == id);
+            var product = await query.SingleAsync();
             return product;
         }
 
-        public Product CreateProduct(Product product)
+        public async Task<Product> CreateProduct(Product newProduct)
         {
-            product.Id = _lastId++;
-            _products.Add(product);
-            return product;
-        }
-        public List<Product> GetAll()
-        {
-            return _products;
-        }
+            _dbContext.Products.Add(newProduct);
+            await _dbContext.SaveChangesAsync();
 
-        public bool DeleteProduct(int id)
-        {
-            var product = _products.FirstOrDefault(t => t.Id == id);
-            if (product == null)
-            {
-                return false;
-            }
-            _products.Remove(product);
-            _lastId -= 1;
-            return true;
+
+            return newProduct;
         }
-        public bool ExistsByTitle(string title)
-        {
-            return _products.Any(t => t.Title.Equals(title, StringComparison.OrdinalIgnoreCase));
-        }
+        //public List<Product> GetAll()
+        //{
+        //    return _products;
+        //}
+
+        //public bool DeleteProduct(int id)
+        //{
+        //    var product = _products.FirstOrDefault(t => t.Id == id);
+        //    if (product == null)
+        //    {
+        //        return false;
+        //    }
+        //    _products.Remove(product);
+        //    _lastId -= 1;
+        //    return true;
+        //}
+        //public bool ExistsByTitle(string title)
+        //{
+        //    return _products.Any(t => t.Title.Equals(title, StringComparison.OrdinalIgnoreCase));
+        //}
     }
 }
