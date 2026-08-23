@@ -7,9 +7,19 @@ namespace Assignment_2.Repo
     public class ProductRepo:IProductRepos
     {
         private readonly AppDbContext _dbContext;
+
+
         public ProductRepo(AppDbContext dbContext)
         {
             _dbContext = dbContext;
+        }
+
+        public  IQueryable<Product> GetAll()
+        {
+            
+            return _dbContext.Products.AsQueryable();
+
+
         }
         public async Task<Product>? GetProduct(int id)
         {

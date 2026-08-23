@@ -8,6 +8,8 @@ namespace Assignment_2.Repo
 
         public Task<Product> CreateProduct(Product product);
 
+        public IQueryable<Product> GetAll();
+
         //public List<Product> GetAll();
 
         //public bool DeleteProduct(int id);

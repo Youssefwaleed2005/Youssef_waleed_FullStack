@@ -16,12 +16,12 @@ namespace Assignment_2.Controllers
         {
             _productService = productService;
         }
-        
-        //[HttpGet]
-        //public IActionResult GetAll([FromQuery] ProductFilterParams param) 
-        //{
-        //    return Ok(_productService.GetAll(param));
-        //}
+
+        [HttpGet]
+        public IActionResult GetAll([FromQuery] ProductFilterParams param)
+        {
+            return Ok(_productService.GetAll(param));
+        }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetProduct(int id)

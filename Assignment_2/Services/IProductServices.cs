@@ -8,6 +8,8 @@ namespace Assignment_2.Services
 
         public Task<Product> CreateProduct(Product product);
 
+        public Task<List<Product>> GetAll(ProductFilterParams param);
+
         //public PagedResult<Product> GetAll(ProductFilterParams param);
 
         //public bool DeleteProduct(int id);

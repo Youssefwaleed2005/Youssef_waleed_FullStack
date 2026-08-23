@@ -21,7 +21,7 @@ namespace Assignment_3.Data
             modelBuilder.Entity<Product>(entity =>
             {
                 entity.HasKey(t => t.Id);
-                entity.Property(t => t.CreatedAt).HasDefaultValueSql("NOW()");
+                entity.Property(t => t.CreatedAt).HasDefaultValueSql("GETDATE()");
                 entity.Property(t => t.Price);
 
                 entity.HasOne(t => t.User).WithMany(u => u.Product).HasForeignKey(t => t.UserId).OnDelete(DeleteBehavior.Cascade);

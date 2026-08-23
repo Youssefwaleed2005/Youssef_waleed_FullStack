@@ -64,7 +64,6 @@ D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\s
 D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\staticwebassets.development.json
 D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\swae.build.ex.cache
-D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\Assignme.B01EBD87.Up2Date
 D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\Assignment 3.genruntimeconfig.cache
 D:\Andalusia FullStack\Youssef_waleed_FullStack\Assignment_2\obj\Debug\net10.0\ref\Assignment 3.dll

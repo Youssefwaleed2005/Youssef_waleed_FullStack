@@ -1,6 +1,7 @@
 ﻿using Assignment_2.Repo;
 using Assignment_3.Exceptions;
 using Assignment_3.Models;
+using Microsoft.EntityFrameworkCore;
 
 
 
@@ -15,7 +16,25 @@ namespace Assignment_2.Services
             _productRepo = productRepo;
 
         }
+        public async Task<List<Product>> GetAll(ProductFilterParams param)
+        {
+            var query = _productRepo.GetAll();
 
+            if (!string.IsNullOrEmpty(param.Search))
+                query = query.Where(p => EF.Functions.Like(p.Title, $"%{param.Search}%"));
+
+            if (param.IsAvalaible.HasValue)
+                query = query.Where(p => p.IsAvaliable == param.IsAvalaible.Value);
+
+
+            var totalCount = await query.CountAsync();
+
+            var items = await query
+                .OrderByDescending(p=>p.CreatedAt)
+                .Skip((param.Page -1 )*param.PageSize)
+                .Take(param.PageSize)
+                .ToListAsync();
+        }
         public async Task<Product>? GetProduct(int id)
         {
             return await _productRepo.GetProduct(id);
