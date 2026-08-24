@@ -1,6 +1,8 @@
 ﻿using Assignment_2.Repo;
+using Assignment_3.DTOs;
 using Assignment_3.Exceptions;
 using Assignment_3.Models;
+using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -10,10 +12,13 @@ namespace Assignment_2.Services
     public class ProductService:IProductServices
     {
         private IProductRepos _productRepo;
+        private IMapper _mapper;
 
-        public ProductService(IProductRepos productRepo)
+
+        public ProductService(IProductRepos productRepo,IMapper mapper)
         {
             _productRepo = productRepo;
+            _mapper = mapper;
 
         }
         public async Task<List<Product>> GetAll(ProductFilterParams param)
@@ -35,13 +40,20 @@ namespace Assignment_2.Services
                 .Take(param.PageSize)
                 .ToListAsync();
         }
-        public async Task<Product>? GetProduct(int id)
+        public async Task<ProductItemDto> GetProduct(int id)
         {
-            return await _productRepo.GetProduct(id);
+            var product = await _productRepo.GetProduct(id);
+              var productDto =_mapper.Map<ProductItemDto>(product);
+            return productDto;
+
         }
-        public async Task<Product> CreateProduct(Product product)
+        public async Task<ProductItemDto> CreateProduct(CreatedProductRequest product)
         {
-           return await _productRepo.CreateProduct(product);
+            var productModel = _mapper.Map<Product>(product);
+            var newProduct = await _productRepo.CreateProduct(productModel);
+            var ProductDto = _mapper.Map<ProductItemDto>(newProduct);
+            return ProductDto;
+
         }
         //public PagedResult<Product> GetAll(ProductFilterParams param)
         //{

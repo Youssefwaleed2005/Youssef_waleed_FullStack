@@ -5,6 +5,7 @@ using Assignment_3.MiddleWare;
 using Assignment_3.Repo;
 using Assignment_3.Services;
 using Microsoft.EntityFrameworkCore;
+using Assignment_3.Mappings;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<IProductRepos,ProductRepo>();
@@ -26,7 +27,10 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
 });
 
-
+builder.Services.AddAutoMapper(cfg =>
+{
+    cfg.AddProfile<MappingProfile>();
+});
 
 
 var app = builder.Build();
