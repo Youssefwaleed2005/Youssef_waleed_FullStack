@@ -39,6 +39,8 @@ namespace Assignment_2.Services
                 .Skip((param.Page -1 )*param.PageSize)
                 .Take(param.PageSize)
                 .ToListAsync();
+
+            return items;
         }
         public async Task<ProductItemDto> GetProduct(int id)
         {

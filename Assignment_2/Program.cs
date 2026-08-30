@@ -6,6 +6,9 @@ using Assignment_3.Repo;
 using Assignment_3.Services;
 using Microsoft.EntityFrameworkCore;
 using Assignment_3.Mappings;
+using Assignment_3.Validators;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<IProductRepos,ProductRepo>();
@@ -31,6 +34,10 @@ builder.Services.AddAutoMapper(cfg =>
 {
     cfg.AddProfile<MappingProfile>();
 });
+
+builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddValidatorsFromAssemblyContaining<CreateProductRequestValidator>();
+builder.Services.AddValidatorsFromAssemblyContaining<UpdateProductValidator>();
 
 
 var app = builder.Build();
