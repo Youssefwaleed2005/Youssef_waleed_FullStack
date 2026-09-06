@@ -1,11 +1,14 @@
-﻿using Assignment_3.Models;
+﻿using Assignment_3.DTOs;
+using Assignment_3.Models;
 using Assignment_3.Services;
+using Azure.Core;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Assignment_3.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/auth")]
     [ApiController]
     public class UsersController : ControllerBase
     {
@@ -16,13 +19,24 @@ namespace Assignment_3.Controllers
             _userService = userService;
         }
 
-        [HttpPost]
-        public async Task<ActionResult> CreateUser(User user)
+        [HttpPost ("register") ]
+        public async Task<ActionResult> CreateUser(CreateUserRequest user)
         {
             return Created($"/api/user/{user.Id}", await _userService.CreateUser(user));
         }
 
+        [HttpPost("login")]
+
+        public async Task<ActionResult> Login(UserLoginRequestDto userLogin)
+        {
+            var token = await _userService.Login(userLogin);
+            return Ok(new {accessToken=token}); 
+
+        }
+
+
         [HttpGet]
+        [Authorize]
         public async Task<ActionResult> GetAll()
         {
             return Ok(await _userService.GetAll());

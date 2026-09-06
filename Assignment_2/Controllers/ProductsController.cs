@@ -3,9 +3,12 @@ using Assignment_2.Services;
 using Assignment_3.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Assignment_2.Controllers
-{
+{ 
+    [Authorize]
+
     [Route("api/products")]
     [ApiController]
     public class ProductsController : ControllerBase

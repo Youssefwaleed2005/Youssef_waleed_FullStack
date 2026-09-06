@@ -1,4 +1,5 @@
-﻿using Assignment_3.Models;
+﻿using Assignment_3.DTOs;
+using Assignment_3.Models;
 
 namespace Assignment_3.Repo
 {
@@ -6,6 +7,8 @@ namespace Assignment_3.Repo
     {
         public Task<User> CreateUser(User user);
         public Task<List<User>> GetAll();
+        public Task<User> Login(UserLoginRequestDto user);
+
 
     }
 }
