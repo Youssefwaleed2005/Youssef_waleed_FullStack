@@ -35,8 +35,8 @@ namespace Assignment_3.Controllers
         }
 
 
-        [HttpGet]
-        [Authorize]
+        [HttpGet ("api/admin/users")]
+        [Authorize (Roles ="Admin")]
         public async Task<ActionResult> GetAll()
         {
             return Ok(await _userService.GetAll());

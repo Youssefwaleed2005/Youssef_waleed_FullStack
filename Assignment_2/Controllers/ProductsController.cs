@@ -4,6 +4,8 @@ using Assignment_3.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.OpenApi;
+using Assignment_3.Helper;
 
 namespace Assignment_2.Controllers
 { 
@@ -14,10 +16,12 @@ namespace Assignment_2.Controllers
     public class ProductsController : ControllerBase
     {
         private IProductServices _productService;
+        private readonly IAuthorizationService _authz;
 
-        public ProductsController(IProductServices productService)
+        public ProductsController(IProductServices productService, IAuthorizationService auth)
         {
             _productService = productService;
+            _authz = auth;
         }
 
         [HttpGet]
@@ -41,6 +45,7 @@ namespace Assignment_2.Controllers
         }
 
         [HttpPost ("add")]
+        [Authorize (Policy = "CanManageProdcuts")]
         public async Task<IActionResult> CreateItem([FromBody] Product product)
         {
            
@@ -49,17 +54,34 @@ namespace Assignment_2.Controllers
 
        
 
-        //[HttpDelete("{id}")]
+        [HttpDelete("{id}")]
+        [Authorize(Policy = "CanManageProducts")]
+        public async Task<IActionResult> DeleteProduct(int id)
+        {
+            if (await _productService.DeleteProduct(id))
+            {
+                return NoContent();
+            }
+            else return NotFound();
 
-        //public IActionResult DeleteProduct(int id)
-        //{
-        //    if (_productService.DeleteProduct(id))
-        //    {
-        //        return NoContent();
-        //    }
-        //    else return NotFound();
+        }
 
-        //}
+        [Authorize]
+        [HttpDelete("/Users/{id}")]
+        public async Task<IActionResult> UserDeleteProduct(int id)
+        {
+            var product = await _productService.GetProduct(id);
+            if (product == null)
+                return NotFound();
+            var result = await _authz.AuthorizeAsync(
+                User, product, Operations.Delete);
+            if (!result.Succeeded)
+                return Forbid();
+
+           await _productService.DeleteProduct(id);
+            return NoContent();
+
+        }
     }
 
 }

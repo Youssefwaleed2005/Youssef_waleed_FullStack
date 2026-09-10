@@ -1,0 +1,24 @@
+﻿using Microsoft.AspNetCore.Authorization.Infrastructure;
+
+namespace Assignment_3.Helper
+{
+    public class Operations
+    {
+
+        public static readonly
+            OperationAuthorizationRequirement
+            Create = new() { Name = "Create" };
+
+        public static readonly
+            OperationAuthorizationRequirement
+            Read = new() { Name = "Read" };
+
+        public static readonly
+            OperationAuthorizationRequirement
+            Update = new() { Name = "Update" };
+
+        public static readonly
+            OperationAuthorizationRequirement
+            Delete = new() { Name = "Delete" };
+    }
+}

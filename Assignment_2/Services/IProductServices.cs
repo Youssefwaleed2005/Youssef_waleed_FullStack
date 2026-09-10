@@ -13,6 +13,6 @@ namespace Assignment_2.Services
 
         //public PagedResult<Product> GetAll(ProductFilterParams param);
 
-        //public bool DeleteProduct(int id);
+        public Task<bool> DeleteProduct(int id);
     }
 }

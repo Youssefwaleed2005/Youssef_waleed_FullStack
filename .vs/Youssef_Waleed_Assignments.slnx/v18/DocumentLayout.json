@@ -3,31 +3,67 @@
   "WorkspaceRootPath": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|d:\\andalusia fullstack\\youssef_waleed_fullstack\\assignment_2\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|solutionrelative:assignment_2\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|d:\\andalusia fullstack\\youssef_waleed_fullstack\\assignment_2\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|solutionrelative:assignment_2\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|d:\\andalusia fullstack\\youssef_waleed_fullstack\\assignment_2\\authorization\\productauthorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|solutionrelative:assignment_2\\authorization\\productauthorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|d:\\andalusia fullstack\\youssef_waleed_fullstack\\assignment_2\\helper\\operations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|solutionrelative:assignment_2\\helper\\operations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|d:\\andalusia fullstack\\youssef_waleed_fullstack\\assignment_2\\assignment 3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|solutionrelative:assignment_2\\assignment 3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\walee\\AppData\\Roaming\\Microsoft\\UserSecrets\\63703a38-96a2-4692-a86f-5f930e5d1046\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|d:\\andalusia fullstack\\youssef_waleed_fullstack\\assignment_2\\dtos\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|solutionrelative:assignment_2\\dtos\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|d:\\andalusia fullstack\\youssef_waleed_fullstack\\assignment_2\\repo\\productrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|solutionrelative:assignment_2\\repo\\productrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|d:\\andalusia fullstack\\youssef_waleed_fullstack\\assignment_2\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|solutionrelative:assignment_2\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|d:\\andalusia fullstack\\youssef_waleed_fullstack\\assignment_2\\services\\iproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|solutionrelative:assignment_2\\services\\iproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|d:\\andalusia fullstack\\youssef_waleed_fullstack\\assignment_2\\repo\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|solutionrelative:assignment_2\\repo\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|d:\\andalusia fullstack\\youssef_waleed_fullstack\\assignment_2\\repo\\iproductrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|solutionrelative:assignment_2\\repo\\iproductrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|d:\\andalusia fullstack\\youssef_waleed_fullstack\\assignment_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|solutionrelative:assignment_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|d:\\andalusia fullstack\\youssef_waleed_fullstack\\assignment_2\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|solutionrelative:assignment_2\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|d:\\andalusia fullstack\\youssef_waleed_fullstack\\assignment_2\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|solutionrelative:assignment_2\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|d:\\andalusia fullstack\\youssef_waleed_fullstack\\assignment_2\\dtos\\userloginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|solutionrelative:assignment_2\\dtos\\userloginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|d:\\andalusia fullstack\\youssef_waleed_fullstack\\assignment_2\\validators\\createproductrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|solutionrelative:assignment_2\\validators\\createproductrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\walee\\AppData\\Roaming\\Microsoft\\UserSecrets\\63703a38-96a2-4692-a86f-5f930e5d1046\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|d:\\andalusia fullstack\\youssef_waleed_fullstack\\assignment_2\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|solutionrelative:assignment_2\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|d:\\andalusia fullstack\\youssef_waleed_fullstack\\assignment_2\\repo\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|solutionrelative:assignment_2\\repo\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|d:\\andalusia fullstack\\youssef_waleed_fullstack\\assignment_2\\repo\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,20 +74,12 @@
       "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|solutionrelative:assignment_2\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|d:\\andalusia fullstack\\youssef_waleed_fullstack\\assignment_2\\dtos\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|solutionrelative:assignment_2\\dtos\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|d:\\andalusia fullstack\\youssef_waleed_fullstack\\assignment_2\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|solutionrelative:assignment_2\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|d:\\andalusia fullstack\\youssef_waleed_fullstack\\assignment_2\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|solutionrelative:assignment_2\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|d:\\andalusia fullstack\\youssef_waleed_fullstack\\assignment_2\\dtos\\userloginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|solutionrelative:assignment_2\\dtos\\userloginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|d:\\andalusia fullstack\\youssef_waleed_fullstack\\assignment_2\\dtos\\createproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,14 +94,6 @@
       "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|solutionrelative:assignment_2\\validators\\updateproductvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|d:\\andalusia fullstack\\youssef_waleed_fullstack\\assignment_2\\validators\\createproductrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|solutionrelative:assignment_2\\validators\\createproductrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|d:\\andalusia fullstack\\youssef_waleed_fullstack\\assignment_2\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|solutionrelative:assignment_2\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|d:\\andalusia fullstack\\youssef_waleed_fullstack\\assignment_2\\dtos\\productitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|solutionrelative:assignment_2\\dtos\\productitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -84,10 +104,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|d:\\andalusia fullstack\\youssef_waleed_fullstack\\assignment_2\\models\\productfilterparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|solutionrelative:assignment_2\\models\\productfilterparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|d:\\andalusia fullstack\\youssef_waleed_fullstack\\assignment_2\\repo\\iproductrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A01AA689-A3C3-4926-8E2F-9CC445C4FDBC}|Assignment_2\\Assignment 3.csproj|solutionrelative:assignment_2\\repo\\iproductrepos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -97,7 +113,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -110,101 +126,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "secrets.json",
-              "DocumentMoniker": "C:\\Users\\walee\\AppData\\Roaming\\Microsoft\\UserSecrets\\63703a38-96a2-4692-a86f-5f930e5d1046\\secrets.json",
-              "ToolTip": "C:\\Users\\walee\\AppData\\Roaming\\Microsoft\\UserSecrets\\63703a38-96a2-4692-a86f-5f930e5d1046\\secrets.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-06T02:30:11.926Z"
+              "Title": "Operations.cs",
+              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Helper\\Operations.cs",
+              "RelativeDocumentMoniker": "Assignment_2\\Helper\\Operations.cs",
+              "ToolTip": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Helper\\Operations.cs",
+              "RelativeToolTip": "Assignment_2\\Helper\\Operations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T23:38:15.163Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "Assignment_2\\Controllers\\UsersController.cs",
-              "ToolTip": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "Assignment_2\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA0wCYAAAASAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ProductAuthorizationHandler.cs",
+              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Authorization\\ProductAuthorizationHandler.cs",
+              "RelativeDocumentMoniker": "Assignment_2\\Authorization\\ProductAuthorizationHandler.cs",
+              "ToolTip": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Authorization\\ProductAuthorizationHandler.cs",
+              "RelativeToolTip": "Assignment_2\\Authorization\\ProductAuthorizationHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T02:21:26.407Z",
+              "WhenOpened": "2026-09-10T23:31:02.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductRepo.cs",
+              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Repo\\ProductRepo.cs",
+              "RelativeDocumentMoniker": "Assignment_2\\Repo\\ProductRepo.cs",
+              "ToolTip": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Repo\\ProductRepo.cs",
+              "RelativeToolTip": "Assignment_2\\Repo\\ProductRepo.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwDUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T23:14:21.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IProductServices.cs",
+              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Services\\IProductServices.cs",
+              "RelativeDocumentMoniker": "Assignment_2\\Services\\IProductServices.cs",
+              "ToolTip": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Services\\IProductServices.cs",
+              "RelativeToolTip": "Assignment_2\\Services\\IProductServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T23:13:47.73Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "Assignment_2\\Controllers\\ProductsController.cs",
-              "ToolTip": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "Assignment_2\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T02:16:16.486Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IUserRepo.cs",
-              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Repo\\IUserRepo.cs",
-              "RelativeDocumentMoniker": "Assignment_2\\Repo\\IUserRepo.cs",
-              "ToolTip": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Repo\\IUserRepo.cs",
-              "RelativeToolTip": "Assignment_2\\Repo\\IUserRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T02:15:58.022Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Services\\IUserService.cs",
-              "RelativeDocumentMoniker": "Assignment_2\\Services\\IUserService.cs",
-              "ToolTip": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Services\\IUserService.cs",
-              "RelativeToolTip": "Assignment_2\\Services\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T02:11:53.444Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Assignment_2\\Services\\UserService.cs",
-              "ToolTip": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Services\\UserService.cs",
-              "RelativeToolTip": "Assignment_2\\Services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T02:06:48.46Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Program.cs",
-              "RelativeDocumentMoniker": "Assignment_2\\Program.cs",
-              "ToolTip": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Program.cs",
-              "RelativeToolTip": "Assignment_2\\Program.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T10:13:29.99Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Assignment 3.csproj",
-              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Assignment 3.csproj",
-              "RelativeDocumentMoniker": "Assignment_2\\Assignment 3.csproj",
-              "ToolTip": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Assignment 3.csproj",
-              "RelativeToolTip": "Assignment_2\\Assignment 3.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-08-30T22:49:49.658Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "CreateUserRequest.cs",
               "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\DTOs\\CreateUserRequest.cs",
               "RelativeDocumentMoniker": "Assignment_2\\DTOs\\CreateUserRequest.cs",
@@ -212,19 +185,73 @@
               "RelativeToolTip": "Assignment_2\\DTOs\\CreateUserRequest.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T02:04:20.179Z"
+              "WhenOpened": "2026-09-06T02:04:20.179Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Assignment_2\\Models\\User.cs",
-              "ToolTip": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Models\\User.cs",
-              "RelativeToolTip": "Assignment_2\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Assignment_2\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Assignment_2\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAqwFEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T01:57:27.297Z"
+              "WhenOpened": "2026-09-06T02:16:16.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserRepo.cs",
+              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Repo\\UserRepo.cs",
+              "RelativeDocumentMoniker": "Assignment_2\\Repo\\UserRepo.cs",
+              "ToolTip": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Repo\\UserRepo.cs",
+              "RelativeToolTip": "Assignment_2\\Repo\\UserRepo.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwB8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-23T14:17:36.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Assignment 3.csproj",
+              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Assignment 3.csproj",
+              "RelativeDocumentMoniker": "Assignment_2\\Assignment 3.csproj",
+              "ToolTip": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Assignment 3.csproj",
+              "RelativeToolTip": "Assignment_2\\Assignment 3.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-30T22:49:49.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IProductRepos.cs",
+              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Repo\\IProductRepos.cs",
+              "RelativeDocumentMoniker": "Assignment_2\\Repo\\IProductRepos.cs",
+              "ToolTip": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Repo\\IProductRepos.cs",
+              "RelativeToolTip": "Assignment_2\\Repo\\IProductRepos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-23T14:17:09.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Assignment_2\\Services\\ProductService.cs",
+              "ToolTip": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Services\\ProductService.cs",
+              "RelativeToolTip": "Assignment_2\\Services\\ProductService.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAswG8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-23T12:55:47.153Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -236,23 +263,109 @@
               "RelativeToolTip": "Assignment_2\\DTOs\\UserLoginRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T01:57:22.988Z"
+              "WhenOpened": "2026-09-06T01:57:22.988Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserRepo.cs",
-              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Repo\\UserRepo.cs",
-              "RelativeDocumentMoniker": "Assignment_2\\Repo\\UserRepo.cs",
-              "ToolTip": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Repo\\UserRepo.cs",
-              "RelativeToolTip": "Assignment_2\\Repo\\UserRepo.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwB8AAAAyAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "CreateProductRequestValidator.cs",
+              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Validators\\CreateProductRequestValidator.cs",
+              "RelativeDocumentMoniker": "Assignment_2\\Validators\\CreateProductRequestValidator.cs",
+              "ToolTip": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Validators\\CreateProductRequestValidator.cs",
+              "RelativeToolTip": "Assignment_2\\Validators\\CreateProductRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-23T14:17:36.047Z"
+              "WhenOpened": "2026-08-30T22:50:36.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Assignment_2\\Services\\UserService.cs",
+              "ToolTip": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Services\\UserService.cs",
+              "RelativeToolTip": "Assignment_2\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T02:06:48.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Assignment_2\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Assignment_2\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAUwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T02:21:26.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Program.cs",
+              "RelativeDocumentMoniker": "Assignment_2\\Program.cs",
+              "ToolTip": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Program.cs",
+              "RelativeToolTip": "Assignment_2\\Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T10:13:29.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "Assignment_2\\Services\\IUserService.cs",
+              "ToolTip": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Services\\IUserService.cs",
+              "RelativeToolTip": "Assignment_2\\Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T02:11:53.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IUserRepo.cs",
+              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Repo\\IUserRepo.cs",
+              "RelativeDocumentMoniker": "Assignment_2\\Repo\\IUserRepo.cs",
+              "ToolTip": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Repo\\IUserRepo.cs",
+              "RelativeToolTip": "Assignment_2\\Repo\\IUserRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T02:15:58.022Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\walee\\AppData\\Roaming\\Microsoft\\UserSecrets\\63703a38-96a2-4692-a86f-5f930e5d1046\\secrets.json",
+              "ToolTip": "C:\\Users\\walee\\AppData\\Roaming\\Microsoft\\UserSecrets\\63703a38-96a2-4692-a86f-5f930e5d1046\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-06T02:30:11.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Assignment_2\\Models\\User.cs",
+              "ToolTip": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Models\\User.cs",
+              "RelativeToolTip": "Assignment_2\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T01:57:27.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "Roles.cs",
               "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Enums\\Roles.cs",
               "RelativeDocumentMoniker": "Assignment_2\\Enums\\Roles.cs",
@@ -264,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "CreateProductRequest.cs",
               "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\DTOs\\CreateProductRequest.cs",
               "RelativeDocumentMoniker": "Assignment_2\\DTOs\\CreateProductRequest.cs",
@@ -276,7 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Mappings\\MappingProfile.cs",
               "RelativeDocumentMoniker": "Assignment_2\\Mappings\\MappingProfile.cs",
@@ -288,7 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 22,
               "Title": "UpdateProductValidator.cs",
               "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Validators\\UpdateProductValidator.cs",
               "RelativeDocumentMoniker": "Assignment_2\\Validators\\UpdateProductValidator.cs",
@@ -300,31 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CreateProductRequestValidator.cs",
-              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Validators\\CreateProductRequestValidator.cs",
-              "RelativeDocumentMoniker": "Assignment_2\\Validators\\CreateProductRequestValidator.cs",
-              "ToolTip": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Validators\\CreateProductRequestValidator.cs",
-              "RelativeToolTip": "Assignment_2\\Validators\\CreateProductRequestValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-30T22:50:36.873Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "Assignment_2\\Services\\ProductService.cs",
-              "ToolTip": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Services\\ProductService.cs",
-              "RelativeToolTip": "Assignment_2\\Services\\ProductService.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAkwAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-23T12:55:47.153Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Assignment_2\\Models\\Product.cs",
@@ -336,7 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "ProductItemDto.cs",
               "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\DTOs\\ProductItemDto.cs",
               "RelativeDocumentMoniker": "Assignment_2\\DTOs\\ProductItemDto.cs",
@@ -348,7 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "ProductFilterParams.cs",
               "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Models\\ProductFilterParams.cs",
               "RelativeDocumentMoniker": "Assignment_2\\Models\\ProductFilterParams.cs",
@@ -357,18 +446,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-23T14:23:01.538Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IProductRepos.cs",
-              "DocumentMoniker": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Repo\\IProductRepos.cs",
-              "RelativeDocumentMoniker": "Assignment_2\\Repo\\IProductRepos.cs",
-              "ToolTip": "D:\\Andalusia FullStack\\Youssef_waleed_FullStack\\Assignment_2\\Repo\\IProductRepos.cs",
-              "RelativeToolTip": "Assignment_2\\Repo\\IProductRepos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-23T14:17:09.51Z"
             }
           ]
         }

@@ -107,10 +107,10 @@ namespace Assignment_2.Services
 
         //}
 
-        //public bool DeleteProduct(int id)
-        //{
-        //    return _productRepo.DeleteProduct(id);
-        //}
+        public async Task<bool> DeleteProduct(int id)
+        {
+            return await _productRepo.DeleteProduct(id);
+        }
 
     }
 }

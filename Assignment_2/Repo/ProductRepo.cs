@@ -38,25 +38,21 @@ namespace Assignment_2.Repo
 
             return newProduct;
         }
-        //public List<Product> GetAll()
-        //{
-        //    return _products;
-        //}
+        public async Task<bool> DeleteProduct(int id)
+        {
+            var product = await _dbContext.Products
+                .Include(p => p.User)
+                .SingleOrDefaultAsync(p => p.Id == id);
 
-        //public bool DeleteProduct(int id)
-        //{
-        //    var product = _products.FirstOrDefault(t => t.Id == id);
-        //    if (product == null)
-        //    {
-        //        return false;
-        //    }
-        //    _products.Remove(product);
-        //    _lastId -= 1;
-        //    return true;
-        //}
-        //public bool ExistsByTitle(string title)
-        //{
-        //    return _products.Any(t => t.Title.Equals(title, StringComparison.OrdinalIgnoreCase));
-        //}
+            if (product is null)
+                return false;
+
+            _dbContext.Products.Remove(product);
+            await _dbContext.SaveChangesAsync();
+
+            return true;
+        }
+
+
     }
 }
